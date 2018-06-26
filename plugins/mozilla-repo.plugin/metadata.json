@@ -1,0 +1,18 @@
+{
+	"icon": "iceweasel",
+	"label": "Debian-Mozilla",
+	"description": "updated mozilla packages from Debian- May Break your system",
+	"license": "Various",
+	"category": "Repositories",
+	"scripts": {
+		"exec": {
+			"label": "Install",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remove",
+			"command": ""
+		},
+		"status": { "command": "test -f /etc/apt/sources.mozilla" }
+	}
+}

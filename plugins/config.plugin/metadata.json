@@ -1,0 +1,17 @@
+{
+	"label": "Add a user to group",
+	"description": "Add a user to adaptigo group to allow updates from within applications",
+	"license": [ "gpl3" ],
+	"category": "Tweaks",
+	"scripts": {
+		"exec": {
+			"label": "Setup",
+			"command": "run-as-gksudo -s magic.sh "
+		},
+		"undo": {
+			"label": "no undo",
+			"command": ""
+		},
+		"status": { "command": "" }
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"icon": "teamviewer",
+	"label": "TeamViewer",
+	"description": "Easy, fast and secure remote access to Windows, Mac and Linux systems.",
+	"license": "Free for non-commercial use",
+	"category": "Apps",
+	"scripts": {
+		"exec": {
+			"label": "Install",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remove",
+			"command": "run-as-root -s remove.sh"
+		},
+		"status": { "command": "dpkg-query -l teamviewer" }
+	}
+}

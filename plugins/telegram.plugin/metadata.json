@@ -1,0 +1,18 @@
+{
+	"icon": "telegram",
+	"label": "Telegram",
+	"description": "A messaging app with a focus on speed and security.",
+	"license": "GPLv2",
+	"category": "Apps",
+	"scripts": {
+		"exec": {
+			"label": "Install",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remove",
+			"command": "run-as-root rm -Rfv /opt/Telegram/"
+		},
+		"status": { "command": "test -f /opt/Telegram/Telegram" }
+	}
+}

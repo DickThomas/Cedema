@@ -1,0 +1,18 @@
+{
+	"icon": "nuvolalayer",
+	"label": "tiliado tiliado-repositories",
+	"description": "tiliado-repositories",
+	"license": "GPLv2 ",
+	"category": "Repositories",
+	"scripts": {
+		"exec": {
+			"label": "Install only at the moment",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Sorry no remove at the moment"
+		
+		},
+		"status": { "command": "dpkg-query -l tiliado-repositories" }
+	}
+}
