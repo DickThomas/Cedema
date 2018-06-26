@@ -1,0 +1,4 @@
+#!/bin/bash
+cd /opt/adatptigo/
+./popup.js & run-as-root aptitude update
+./app.js $@

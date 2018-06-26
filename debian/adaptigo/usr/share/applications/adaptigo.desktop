@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Adaptigo
+GenericName=Adaptigo
+Icon=adaptigo
+Comment=Software, Codec Installs & System Tweaks
+Exec=adaptigo.exec
+Terminal=false
+Type=Application
+Categories=System;Utility;X-Debian;
+Keywords=clean;codec;debian;fix;install;proprietary;
+Name[en_GB]=adaptigo
