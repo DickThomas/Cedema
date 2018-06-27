@@ -2,7 +2,7 @@
 	"icon": "enpass",
 	"label": "Enpass",
 	"description": "A secure way to look after your passwords",
-	"license": "Freeware",
+	"license": "Freemium",
 	"category": "Apps",
 	"scripts": {
 		"exec": {

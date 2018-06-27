@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CACHEDIR="/var/cache/fedy/sublimetext"
+CACHEDIR="/var/cache/adaptigo/sublimetext"
 if [ `uname -m` = "x86_64" ]; then
 	ARCH="amd64"
 else

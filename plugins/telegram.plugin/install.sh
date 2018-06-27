@@ -1,7 +1,7 @@
 
 #!/bin/bash
 aptitude install -y curl
-CACHEDIR="/var/cache/debi/Telegram";
+CACHEDIR="/var/cache/adaptigo/Telegram";
 
 mkdir -p "$CACHEDIR"
 cd "$CACHEDIR"
@@ -34,6 +34,3 @@ Categories=Network;
 MimeType=application/x-xdg-protocol-tg;x-scheme-handler/tg;
 X-Desktop-File-Install-Version=0.22
 EOF
-
-
-chgrp adaptigo -Rfv /opt/Telegram/

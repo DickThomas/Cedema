@@ -33,12 +33,3 @@ Keywords=Java;Scala;Groovy;Deveopment
 EOF
 
 gtk-update-icon-cache -f -t /usr/share/icons/hicolor
-
-# if [ $(getent group adaptigo) ]; then
-# 	chgrp adaptigo "/opt/netbeans/" -Rfv
-# else
-# 	# addgroup adaptigo
-# 	# usermod -a -G adaptigo $USER
-# 	# chgrp adaptigo "/opt/netbeans/" -Rfv
-# 	echo "addgroup"
-# fi

@@ -1,4 +1,6 @@
 #!/bin/bash
+apt install -y default-jdk
+
 
 CACHEDIR="/var/cache/debbie/pycharm"
 FILE=ideaIC.tar.gz
