@@ -2,7 +2,7 @@
 
 [![Join the chat at https://gitter.im/xpd259/adaptigo](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/xpd259/adaptigo?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-
+# WARNING --- totally untested Ive since restarted this project and all the plugins are untested and "may" eat your system or family pets
 
 ## Beta-ish
 ### may eat your dinner, kittens, system or worse
