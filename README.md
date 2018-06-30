@@ -17,7 +17,7 @@ inspired and forked from the fedy installer for fedora
 Cedema lets you install additional software that Debian doesn't want to ship or have installed by default, like Oracle Java, Skype, Google Chrome, etc., and much more with just a few clicks.
 
 ### Installation
-![Debian Logo](https://raw.githubusercontent.com/xpd259/adaptigo/master/screenshots/debian.png) [apt repo at Opensuse Build service](https://software.opensuse.org/download.html?project=home%3Axpd259&package=adaptigo)
+[apt repo at Opensuse Build service](https://software.opensuse.org//download.html?project=home%3Axpd259&package=CEDEMA)
 
 
 forked from fedy original source can be found at https://github.com/folkswithhats/fedy
