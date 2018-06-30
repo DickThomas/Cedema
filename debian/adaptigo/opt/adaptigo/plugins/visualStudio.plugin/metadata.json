@@ -1,0 +1,18 @@
+{
+	"icon": "visualstudio",
+	"label": "Visual Studio",
+	"description": "Code Editing. Redefined. 64bit Only",
+	"license": "MICROSOFT PRE-RELEASE SOFTWARE LICENSE",
+	"category": "Dev Apps",
+	"scripts": {
+		"exec": {
+			"label": "Install",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remove",
+			"command": "run-as-root -s uninstall.sh"
+		},
+		"status": { "command": "test -d /opt/VSCode-Linux/" }
+	}
+}

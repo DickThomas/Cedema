@@ -1,0 +1,16 @@
+Source: adaptigo
+Section: unknown
+Priority: optional
+Maintainer: Dick William Thomas <dthomas@speaksthegeek.co.uk>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: http://xpd259.github.io/adaptigo/
+Vcs-Git: https://github.com/xpd259/adaptigo.git
+#Vcs-Browser: http://anonscm.debian.org/?p=collab-maint/adaptigo.git;a=summary
+
+Package: adaptigo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, gksu, git,  software-properties-common, curl, wget, gdebi, apt-transport-https, gjs, gnupg
+Description: simple installer for non debian software
+  an installer for the things that Debian
+  doesn't have installed by default

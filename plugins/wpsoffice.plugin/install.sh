@@ -13,7 +13,7 @@ else
 fi
 
 dpkg -i wps-office.deb
-apt-get --yes --fix-broken install
+apt --yes --fix-broken install
 
 
 ### installed version!

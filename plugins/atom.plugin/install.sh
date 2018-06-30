@@ -22,4 +22,4 @@ if [ `uname -m` = "x86_64" ]; then
 else
 	ARCH="i386"
 fi
-apt-get -f install
+apt -f install

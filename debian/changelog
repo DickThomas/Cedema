@@ -1,0 +1,189 @@
+adaptigo (0.20-8) UNRELEASED; urgency=medium
+
+  * attempted fix at broken exec again
+  * missing exec still broken
+  * 
+
+ -- Dick Thomas <dthomas@speaksthegeek.co.uk>  Sun, 05 Mar 2017 18:00:39 +0000
+
+adaptigo (0.20-7) stable; urgency=medium
+
+  * vivaldi update to latest version
+  * VSCode updated and updated to deb files
+  * updated sublime text to 3126
+  * pycharm updated to pycharm-community-2016.3.2
+  * updated plex to latest on 5/3/2017
+  * updated netbeans to 8.2
+  * updated masterpdf editor to master-pdf-editor-4.0.60_qt5.amd64.deb
+  * updated java to 8u121
+  * intelij updated to 2016.3.4
+  * 
+
+ -- Dick Thomas <dthomas@speaksthegeek.co.uk>  Sun, 05 Mar 2017 16:27:34 +0000
+
+adaptigo (0.20-6) testing; urgency=medium
+  * loads of updates to latest verion
+  * see github for updates
+
+ -- Dick Thomas <xpd259@gmail.com>  Wed, 14 Sep 2016 15:43:51 +0100
+
+adaptigo (0.20-5) stable; urgency=medium
+
+  * updates to intellij, pycharm, masterpdfeditor
+  * removed deb-multimedia as well, I just don't trust it
+
+ -- Dick Thomas <xpd259@gmail.com>  Fri, 10 Jun 2016 13:34:40 +0100
+
+adaptigo (0.20-4) stable; urgency=medium
+
+  * Ksuperkey added from the adaptigo repo.
+
+ -- Dick William Thomas <xpd259@gmail.com>  Sat, 30 Apr 2016 13:31:41 +0100
+
+adaptigo (0.20-3) stable; urgency=medium
+
+  * another attempted the "more than one install per password request" function
+  * fixed the typo on install script
+  * fixed typo in Master PDF editor
+  * TOX updated, the repos were wrong
+  * updated Plex
+  * I think I've fixed vivaldi ....
+
+
+ -- Dick William Thomas <xpd259@gmail.com>  Fri, 29 Apr 2016 14:00:17 +0100
+
+adaptigo (0.20-2) testing; urgency=medium
+
+  * new "add user to group" feature in testing
+  * updated all plugins with inbuilt update feature to allow updates via being in group
+
+ -- Dick William Thomas <xpd259@gmail.com>  Wed, 13 Apr 2016 21:29:26 +0100
+
+adaptigo (0.20-1) testing; urgency=medium
+
+  * updated run-as-root policy to allow more than one install before asking for the password again
+  * removed cleanup...didn't trust it
+  * add user to group moved to the "post-install deb"
+  * readded enpass
+
+ -- Dick William Thomas <xpd259@gmail.com>  Tue, 12 Apr 2016 16:05:23 +0100
+
+adaptigo (0.19-2) testing; urgency=medium
+
+  * need to add gpg to the mix for opensuse build service
+
+ -- Dick William Thomas <xpd259@gmail.com>  Fri, 25 Mar 2016 08:57:36 +0000
+
+adaptigo (0.19-1) stable; urgency=medium
+
+  * updated java JDK
+  * updated pycharm
+  * updated telegram to add group adaptigo
+
+ -- Dick William Thomas <xpd259@gmail.com>  Thu, 24 Mar 2016 13:33:03 +0000
+
+adaptigo (0.18-1) stable; urgency=medium
+
+  *
+
+ -- Dick William Thomas <xpd259@gmail.com>  Thu, 17 Mar 2016 18:33:39 +0000
+
+adaptigo (0.17-1) stable; urgency=medium
+
+  * fixed a major foobar, I broke the debian folder
+  * updated intellij to latest
+
+ -- Dick William Thomas <xpd259@gmail.com>  Thu, 17 Mar 2016 18:22:04 +0000
+
+adaptigo (0.16-1) Stable; urgency=medium
+
+  * removed spotify due to missing libs
+  * updates all updatable applications to latest version
+
+
+ -- Dick William Thomas <xpd259@gmail.com>  Thu, 18 Feb 2016 13:50:28 +0000
+
+adaptigo (0.15-1) unstable; urgency=medium
+
+  * added nnetbeans back in to the mix with a silent installer
+  * updated other apps to the latest
+
+ -- Dick William Thomas <xpd259@gmail.com>  Fri, 29 Jan 2016 13:25:51 +0000
+
+adaptigo (0.14-1) unstable; urgency=medium
+
+  * added spotify again
+
+
+ -- Dick Thomas <xpd259@gmail.com>  Fri, 08 Jan 2016 09:49:12 +0000
+
+adaptigo (0.13-1) unstable; urgency=medium
+
+  * updated all the plugins that had updates or new URLS for downloads
+
+ -- Dick William Thomas <xpd259@gmail.com>  Thu, 07 Jan 2016 14:26:12 +0000
+
+adaptigo (0.12-1) unstable; urgency=medium
+
+  * updated pycharm
+
+ -- Dick William Thomas <xpd259@gmail.com>  Thu, 24 Dec 2015 14:55:51 +0000
+
+adaptigo (0.11-2) unstable; urgency=medium
+
+  * updated Master PDF editor to latest
+  * added teamviwer back to plugins
+  * updated intellij
+  * removed the "fix" for having to enter password everytime as it broke stuff
+
+ -- Dick William Thomas <xpd259@gmail.com>  Thu, 10 Dec 2015 19:16:47 +0000
+
+adaptigo (0.11-1) unstable; urgency=medium
+
+  * changed back to old password method, sorry it broke stuff
+
+ -- Dick William Thomas <xpd259@gmail.com>  Thu, 10 Dec 2015 17:57:37 +0000
+
+adaptigo (0.10-1) unstable; urgency=medium
+
+  * updated the debian folder for a new "pre" to delete the plugins before updating
+  * updared tox, forgot to add the command to install qtox
+  * updated deb-multi, should install the deb file now for the keyring... should
+  * updated MS visual studio core
+  * delted handbrake
+  * updated master PDF editor to 3.5.02
+  * updated atom.io to 1.2.4
+  * updated tox to actually work
+  * updated debian "pre" to delete all old plugins
+  * added Mozillia repo
+ -- Dick William Thomas <xpd259@gmail.com>  Fri, 27 Nov 2015 11:55:27 +0000
+
+adaptigo (0.9-1) unstable; urgency=medium
+
+  * still learning packaging, no changes
+
+ -- Dick William Thomas <xpd259@gmail.com>  Fri, 27 Nov 2015 08:29:01 +0000
+
+adaptigo (0.8-1) unstable; urgency=medium
+
+  * many updates
+
+ -- Dick William Thomas <xpd259@gmail.com>  Fri, 27 Nov 2015 08:13:04 +0000
+
+adaptigo (0.7-1) unstable; urgency=medium
+
+  * updates for intellij and pycharm, was using the old download ignoring the update.
+
+ -- Dick William Thomas <xpd259@gmail.com>  Sat, 14 Nov 2015 10:31:49 +0000
+
+adaptigo (0.6-1) unstable; urgency=medium
+
+  * same as 0.5 just learning to package
+
+ -- Dick William Thomas <xpd259@gmail.com>  Fri, 13 Nov 2015 15:35:20 +0000
+
+adaptigo (0.5-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Dick William Thomas <xpd259@gmail.com>  Thu, 12 Nov 2015 16:17:16 +0000

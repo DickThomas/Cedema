@@ -1,0 +1,18 @@
+{
+	"icon": "sublime-text",
+	"label": "Sublime Text 3",
+	"description": "Sophisticated text editor for code, markup and prose (beta).",
+	"license": "Proprietary",
+	"category": "Dev Apps",
+	"scripts": {
+		"exec": {
+			"label": "Install",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remove",
+			"command": "run-as-root aptitude -y purge sublime-text"
+		},
+		"status": { "command": "dpkg-query -l sublime-text" }
+	}
+}

@@ -1,6 +1,6 @@
 
 #!/bin/bash
-aptitude install -y curl
+apt install -y curl
 CACHEDIR="/var/cache/adaptigo/Telegram";
 
 mkdir -p "$CACHEDIR"

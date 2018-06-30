@@ -1,0 +1,11 @@
+adaptigo.exec /usr/bin/
+adaptigo /opt/adaptigo/
+app.js /opt/adaptigo/
+popup.js /opt/adaptigo/
+run-as-root /usr/bin
+run-as-gksudo /usr/bin
+adaptigo.desktop /usr/share/applications/
+adaptigo.svg /usr/share/icons/hicolor/scalable/apps/
+plugins/* opt/adaptigo/plugins/
+run-as-root.policy /usr/share/polkit-1/actions/
+run-as-user.policy /usr/share/polkit-1/actions/

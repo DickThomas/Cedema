@@ -11,7 +11,7 @@
 		},
 		"undo": {
 			"label": "Remove",
-			"command": "run-as-root aptitude -y purge wps-office"
+			"command": "run-as-root apt -y purge wps-office"
 		},
 		"status": { "command": "dpkg-query -l wps-office" }
 	}

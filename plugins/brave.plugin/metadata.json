@@ -14,6 +14,6 @@
 			"label": "Remove",
 			"command": "run-as-root apt -y remove brave"
 		},
-		"status": { "command": "rpm --quiet --query brave" }
+		"status": { "command": "dpkg-query -l brave" }
 	}
 }

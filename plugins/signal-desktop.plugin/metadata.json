@@ -12,8 +12,8 @@
 		},
 		"undo": {
 			"label": "Remove",
-			"command": "run-as-root dnf -y remove signal-desktop"
+			"command": "run-as-root apt remove signal-desktop"
 		},
-		"status": { "command": "rpm --quiet --query signal-desktop" }
+		"status": { "command": "dpkg-query -l signal-desktop" }
 	}
 }

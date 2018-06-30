@@ -1,0 +1,16 @@
+{
+	"icon": "netbeans",
+	"label": "NetBeans IDE",
+	"description": "Netbeans IDE 8.0.2 install a JDK and configure 1st (silent & slow install)",
+	"license": "CCDL",
+	"category": "Dev Apps",
+	"scripts": {
+		"exec": {
+			"label": "Install",
+			"command": "run-as-user -s install.sh"
+		},
+		"undo": {
+			"label": "sorry no remove at moment" },
+		"status": { "command": "test -f /usr/bin/netbeans" }
+	}
+}

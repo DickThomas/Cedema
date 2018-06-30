@@ -1,0 +1,12 @@
+Package: adaptigo
+Version: 0.20-8
+Architecture: amd64
+Maintainer: Dick William Thomas <dthomas@speaksthegeek.co.uk>
+Installed-Size: 286
+Depends: gksu, git, software-properties-common, curl, wget, gdebi, apt-transport-https, gjs, gnupg
+Section: unknown
+Priority: optional
+Homepage: http://xpd259.github.io/adaptigo/
+Description: simple installer for non debian software
+  an installer for the things that Debian
+  doesn't have installed by default

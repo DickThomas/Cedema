@@ -11,8 +11,8 @@
 		},
 		"undo": {
 			"label": "Remove",
-			"command": "run-as-root aptitude -y purge virtualbox-5.0"
+			"command": "run-as-root apt -y remove virtualbox-5.2"
 		},
-		"status": { "command": "dpkg-query -l virtualbox-5.0" }
+		"status": { "command": "dpkg-query -l virtualbox-5.2" }
 	}
 }

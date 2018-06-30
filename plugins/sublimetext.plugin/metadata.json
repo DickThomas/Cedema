@@ -11,7 +11,7 @@
 		},
 		"undo": {
 			"label": "Remove",
-			"command": "run-as-root aptitude -y purge sublime-text"
+			"command": "run-as-root apt -y remove sublime-text"
 		},
 		"status": { "command": "dpkg-query -l sublime-text" }
 	}

@@ -11,7 +11,7 @@
 		},
 		"undo": {
 			"label": "Remove",
-			"command": "run-as-root aptitude -y purge google-talkplugin"
+			"command": "run-as-root apt -y remove google-talkplugin"
 		},
 		"status": { "command": "dpkg-query -l google-talkplugin" }
 	}

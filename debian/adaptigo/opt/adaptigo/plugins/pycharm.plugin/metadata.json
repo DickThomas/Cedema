@@ -1,0 +1,18 @@
+{
+	"icon": "pycharm",
+	"label": "pycharm",
+	"description": "The Most Intelligent Python IDE (Requires Java)",
+	"license": "Apache 2 license",
+	"category": "Dev Apps",
+	"scripts": {
+		"exec": {
+			"label": "Install",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remove",
+			"command": "run-as-root -s uninstall.sh"
+		},
+		"status": { "command": "test -d /opt/pycharm" }
+	}
+}
