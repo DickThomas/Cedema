@@ -5,7 +5,7 @@
 
 <policyconfig>
   <vendor>Run as root</vendor>
-  <vendor_url>http://xpd259.github.io/adaptigo</vendor_url>
+  <vendor_url>https://bitbucket.org/speaksthegeek/cedema</vendor_url>
   <icon_name>system-run</icon_name>
   <action id="pkexec.run-as-root">
     <description>Run command as root</description>
