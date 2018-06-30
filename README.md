@@ -33,3 +33,7 @@ You should have received a copy of the GNU General Public License along with thi
 
 ### meanging of Adaptigo
 https://en.bab.la/dictionary/esperanto-english/adaptigo
+
+### Fork of Fedy
+If you run Fedora try
+https://github.com/fedy/fedy
