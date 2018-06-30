@@ -1,4 +1,4 @@
-# ADAPTIGO for Debian Gnu/Linux
+# CEDEMA for Debian Gnu/Linux
 
 [![Join the chat at https://gitter.im/xpd259/adaptigo](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/xpd259/adaptigo?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
@@ -8,13 +8,13 @@
 ### may eat your dinner, kittens, system or worse
 ### please! have backups of /etc/ and your /home
 
-Adaptigo is an installer for the things that Debian GNU/Linux doesn't have installed,
+Cedema is an installer for the things that Debian GNU/Linux doesn't have installed,
 
 inspired and forked from the fedy installer for fedora
 
 ### Introduction
 
-Adaptigo lets you install multimedia codecs and additional software that Debian doesn't want to ship or have installed by default, like Adobe Flash, Oracle Java, Skype, Google Chrome, etc., and much more with just a few clicks.
+Cedema lets you install additional software that Debian doesn't want to ship or have installed by default, like Oracle Java, Skype, Google Chrome, etc., and much more with just a few clicks.
 
 ### Installation
 ![Debian Logo](https://raw.githubusercontent.com/xpd259/adaptigo/master/screenshots/debian.png) [apt repo at Opensuse Build service](https://software.opensuse.org/download.html?project=home%3Axpd259&package=adaptigo)
@@ -31,8 +31,8 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 You should have received a copy of the GNU General Public License along with this program. If not, see gnu.org/licenses.
 
 
-### meanging of Adaptigo
-https://en.bab.la/dictionary/esperanto-english/adaptigo
+### meanging of Cedema
+https://en.bab.la/dictionary/english-esperanto/accommodating
 
 ### Fork of Fedy
 If you run Fedora try
