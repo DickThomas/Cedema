@@ -1,7 +1,7 @@
 {
 	"icon": "java",
 	"label": "Oracle JDK",
-	"description": "Allows to run applications written in the Java programming language.",
+	"description": "Allows to run applications written in the Java programming language. X64 Only.",
 	"license": [ "Sun License", "GPL" ],
 	"category": "Dev Apps",
 	"scripts": {
@@ -13,6 +13,6 @@
 			"label": "Remove",
 			"command": "run-as-root -s uninstall.sh"
 		},
-		"status": { "command": "test -f /opt/jdk/jdk1.8.0_92/bin/java " }
+		"status": { "command": "test -f /opt/jdk/jdk-10.0.1/bin/java " }
 	}
 }
