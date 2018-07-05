@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Cedema
+GenericName=Cedema
+Icon=cedema
+Comment=Software, Codec Installs & System Tweaks
+Exec=cedema.exec
+Terminal=false
+Type=Application
+Categories=System;Utility;X-Debian;
+Keywords=clean;debian;fix;install;proprietary;
+Name[en_GB]=cedema

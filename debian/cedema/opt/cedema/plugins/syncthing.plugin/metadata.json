@@ -1,0 +1,18 @@
+{
+	"icon": "syncthing",
+	"label": "SyncThing",
+	"description": "Syncthing replaces proprietary sync and cloud services with something open!",
+	"license": "MPLv2",
+	"category": "Apps",
+	"scripts": {
+		"exec": {
+			"label": "Install",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remove",
+			"command": "run-as-root apt -y remove syncthing"
+		},
+		"status": { "command": "dpkg-query -l syncthing" }
+	}
+}

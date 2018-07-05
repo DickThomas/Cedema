@@ -1,0 +1,18 @@
+{
+	"icon": "duplicati",
+	"label": "duplicati",
+	"description": "Store securely encrypted backups on cloud storage services! ",
+	"license": "LGPL",
+	"category": "Dev Apps",
+	"scripts": {
+		"exec": {
+			"label": "Install",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remove",
+			"command": "run-as-root -s uninstall.sh"
+		},
+		"status": { "command": "dpkg-query -l duplicati" }
+	}
+}

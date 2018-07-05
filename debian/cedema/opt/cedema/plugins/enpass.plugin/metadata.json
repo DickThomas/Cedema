@@ -1,0 +1,18 @@
+{
+	"icon": "enpass",
+	"label": "Enpass",
+	"description": "A secure way to look after your passwords",
+	"license": "Freemium",
+	"category": "Apps",
+	"scripts": {
+		"exec": {
+			"label": "Install",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remove",
+			"command": "run-as-root apt -y remove enpass"
+		},
+		"status": { "command": "dpkg-query -l enpass" }
+	}
+}

@@ -1,4 +1,4 @@
-adaptigo (0.20-8) UNRELEASED; urgency=medium
+cedema (0.20-8) UNRELEASED; urgency=medium
 
   * attempted fix at broken exec again
   * missing exec still broken

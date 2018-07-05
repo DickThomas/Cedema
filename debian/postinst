@@ -17,8 +17,7 @@ set -e
 # for details, see http://www.debian.org/doc/debian-policy/ or
 # the debian-policy package
 
-chmod 755 /opt/adaptigo/popup.js
-chmod 755 /opt/adaptigo/app.js
+chmod +x /opt/cedema/app.js
 
 case "$1" in
     configure)

@@ -1,16 +1,16 @@
-Source: adaptigo
+Source: cedema
 Section: unknown
 Priority: optional
-Maintainer: Dick William Thomas <dthomas@speaksthegeek.co.uk>
+Maintainer: Dick  Thomas <dthomas@speaksthegeek.co.uk>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.5
-Homepage: http://xpd259.github.io/adaptigo/
-Vcs-Git: https://github.com/xpd259/adaptigo.git
-#Vcs-Browser: http://anonscm.debian.org/?p=collab-maint/adaptigo.git;a=summary
+Homepage: https://bitbucket.org/speaksthegeek/cedema
+Vcs-Git: https://speaksthegeek@bitbucket.org/speaksthegeek/cedema.git
+#Vcs-Browser: http://anonscm.debian.org/?p=collab-maint/cedema.git;a=summary
 
-Package: adaptigo
+Package: cedema
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, gksu, git,  software-properties-common, curl, wget, gdebi, apt-transport-https, gjs, gnupg
-Description: simple installer for non debian software
+Description: simple installer for non Debian software
   an installer for the things that Debian
   doesn't have installed by default

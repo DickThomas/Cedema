@@ -1,5 +1,5 @@
 #!/bin/sh
-# preinst script for adaptigo
+# preinst script for cedema
 #
 # see: dh_installdeb(1)
 
@@ -16,7 +16,7 @@ set -e
 
 case "$1" in
     install|upgrade)
-	rm -Rfv "opt/adaptigo/plugins/"
+	rm -Rfv "opt/cedema/plugins/"
     ;;
 
     abort-upgrade)

@@ -1,0 +1,18 @@
+{
+	"icon": "insync",
+	"label": "Insync",
+	"description": "Insync extends Google Drive's web functionality to your desktop",
+	"license": "Proprietary",
+	"category": "Apps",
+	"scripts": {
+		"exec": {
+			"label": "Install",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remove",
+			"command": "run-as-root apt -y remove insync"
+		},
+		"status": { "command": "dpkg-query -l insync" }
+	}
+}

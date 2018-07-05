@@ -1,0 +1,53 @@
+#!/bin/bash
+
+if [[ ! $(whoami) = "root" ]]; then
+    echo "Please run the script as root."
+    exit 1
+fi
+
+
+install -dm755 /usr/bin/
+install -dm755 /opt/cedema/
+
+install -Dpm 0755 cedema.exec /usr/bin/cedema
+install -Dpm 0755 cedema /opt/cedema/cedema
+install -Dpm 0755 app.js /opt/cedema/app.js
+install -dm755 /opt/cedema/
+install -Dpm 0755 bin/run-as-root /opt/cedema/bin/run-as-root
+install -Dpm 0755 bin/run-as-user /opt/cedema/bin/run-as-user
+install -Dpm 0644 cedema.desktop /usr/share/applications/cedema.desktop
+install -Dpm 0644 cedema.appdata.xml /usr/share/appdata/cedema.appdata.xml
+
+install -Dpm 0644 cedema.svg /usr/share/icons/hicolor/scalable/apps/cedema.svg
+install -Dpm 0644 cedema-symbolic.svg /usr/share/icons/hicolor/scalable/apps/cedema-symbolic.svg
+
+install -Dpm 0644 run-as-root.policy /usr/share/polkit-1/actions/run-as-root.policy
+
+gtk-update-icon-cache -f -t /usr/share/icons/hicolor
+rm -Rfv /opt/cedema/plugins/
+install -dm755 /opt/cedema/plugins
+cp -vr plugins/* /opt/cedema/plugins/
+apt install -y  software-properties-common curl wget gdebi apt-transport-https
+cp /etc/apt/sources.list /etc/apt/sources.list.backup
+
+
+grep  '^deb.*debian/ stretch*main'  /etc/apt/sources.list | grep -v "deb-src" | while read -r line ; do
+    echo "Processing $line"
+    apt-add-repository -s "$line  non-free contrib"
+
+done
+
+grep  '^deb.*stretchupdates.main'  /etc/apt/sources.list |  grep -v "deb-src" | while read -r line ; do
+    echo "Processing $line"
+    apt-add-repository -s "$line  non-free contrib"
+
+done
+
+
+grep  '^deb.http://.*debian/ jessie-updates.*main'  /etc/apt/sources.list | grep -v "deb-src" | while read -r line ; do
+    echo "Processing $line"
+    apt-add-repository -s "$line  non-free contrib"
+
+done
+
+apt update

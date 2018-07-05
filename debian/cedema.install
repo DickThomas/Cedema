@@ -1,0 +1,10 @@
+cedema.exec /usr/bin/
+cedema /opt/cedema/
+app.js /opt/cedema/
+run-as-root /usr/bin
+run-as-gksudo /usr/bin
+cedema.desktop /usr/share/applications/
+cedema.svg /usr/share/icons/hicolor/scalable/apps/
+plugins/* opt/cedema/plugins/
+run-as-root.policy /usr/share/polkit-1/actions/
+run-as-user.policy /usr/share/polkit-1/actions/
