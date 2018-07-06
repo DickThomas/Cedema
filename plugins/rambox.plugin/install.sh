@@ -10,6 +10,7 @@ case "$KERNEL" in
   *) KERNEL_VERSION="ia32" ;;
 esac
 
-URL=$(wget "$GITHUB_RELEASES_URL/latest" -O - | grep -o "$GITHUB_DOWNLOAD_URL/[0-9.]*/Rambox-[0-9.]*-$KERNEL_VERSION.deb" | head -n 1)
+wget https://github.com/saenzramiro/rambox/releases/download/0.5.17/Rambox_0.5.17-x64.deb
 
-apt -y install $URL
+dpkg -i Rambox_0.5.17-x64.deb
+apt -f -y install

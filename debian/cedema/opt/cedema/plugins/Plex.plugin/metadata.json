@@ -1,0 +1,18 @@
+{
+	"icon": "plexmediaserver",
+	"label": "Plex",
+	"description": "Enjoy your videos, photos and music anytime, anywhere",
+	"license": "properitey ",
+	"category": "Apps",
+	"scripts": {
+		"exec": {
+			"label": "Install",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remove",
+			"command": "run-as-root aptitude -y purge plexmediaserver"
+		},
+		"status": { "command": "dpkg-query -l plexmediaserver" }
+	}
+}

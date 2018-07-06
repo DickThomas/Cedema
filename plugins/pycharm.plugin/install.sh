@@ -2,14 +2,13 @@
 apt install -y default-jdk
 
 
-CACHEDIR="/var/cache/debbie/pycharm"
+CACHEDIR="/var/cache/cedema/pycharm"
 FILE=ideaIC.tar.gz
 
 mkdir -p "$CACHEDIR"
 cd "$CACHEDIR"
 rm $FILE
 URL=https://download.jetbrains.com/python/pycharm-community-2016.3.2.tar.gz
-FILE=ideaIC.tar.gz
 
 wget -c "$URL" -O "$FILE"
 

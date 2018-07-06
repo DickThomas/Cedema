@@ -1,8 +1,8 @@
 {
-	"icon": "visualstudio",
-	"label": "Visual Studio",
-	"description": "Code Editing. Redefined. 64bit Only",
-	"license": "MICROSOFT PRE-RELEASE SOFTWARE LICENSE",
+	"icon": "duplicati",
+	"label": "duplicati",
+	"description": "Store securely encrypted backups on cloud storage services! ",
+	"license": "LGPL",
 	"category": "Dev Apps",
 	"scripts": {
 		"exec": {
@@ -13,6 +13,6 @@
 			"label": "Remove",
 			"command": "run-as-root -s uninstall.sh"
 		},
-		"status": { "command": "dpkg-query -l code" }
+		"status": { "command": "dpkg-query -l duplicati" }
 	}
 }

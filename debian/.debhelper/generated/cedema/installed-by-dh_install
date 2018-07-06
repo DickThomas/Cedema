@@ -13,6 +13,7 @@
 ./plugins/chrome.plugin
 ./plugins/cleanup.plugin
 ./plugins/clion.plugin
+./plugins/duplicati.plugin
 ./plugins/engines.plugin
 ./plugins/enpass.plugin
 ./plugins/firefox-developer.plugin
@@ -21,12 +22,15 @@
 ./plugins/intellij.plugin
 ./plugins/intellijideacommunity.plugin
 ./plugins/intellijideaultimate.plugin
+./plugins/jdk.plugin
 ./plugins/jetbrains-toolbox.plugin
 ./plugins/lutris.plugin
 ./plugins/Minecraft.plugin
 ./plugins/Nuvola.plugin
+./plugins/Onlyoffice.plugin
+./plugins/Opera.plugin
 ./plugins/phpstorm.plugin
-./plugins/popcorntime.plugin
+./plugins/Plex.plugin
 ./plugins/postman.plugin
 ./plugins/pycharm.plugin
 ./plugins/rambox.plugin
@@ -40,6 +44,7 @@
 ./plugins/telegram.plugin
 ./plugins/virtualbox.plugin
 ./plugins/visualStudio.plugin
+./plugins/vivaldi.plugin
 ./plugins/webstorm.plugin
 ./plugins/wpsoffice.plugin
 ./run-as-root.policy

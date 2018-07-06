@@ -11,7 +11,7 @@
 		},
 		"undo": {
 			"label": "Remove",
-			"command": "run-as-root apt remove -y opera-*"
+			"command": "run-as-root -s uninstall.sh"
 		},
 		"status": { "command": "dpkg-query -l opera-stable" }
 	}
