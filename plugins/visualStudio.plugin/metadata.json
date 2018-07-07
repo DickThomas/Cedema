@@ -3,7 +3,7 @@
 	"label": "Visual Studio",
 	"description": "Code Editing. Redefined. 64bit Only",
 	"license": "MICROSOFT PRE-RELEASE SOFTWARE LICENSE",
-	"category": "Dev Apps",
+	"category": "Development Tools",
 	"scripts": {
 		"exec": {
 			"label": "Install",

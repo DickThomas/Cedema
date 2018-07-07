@@ -11,7 +11,7 @@
 		},
 		"undo": {
 			"label": "Remove",
-			"command": "run-as-root aptitude -y purge plexmediaserver"
+			"command": "run-as-root apt -y purge plexmediaserver"
 		},
 		"status": { "command": "dpkg-query -l plexmediaserver" }
 	}

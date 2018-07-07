@@ -3,7 +3,7 @@
 	"label": "Atom",
 	"description": "A hackable text editor for the 21st Century",
 	"license": "GitHub",
-	"category": "Dev Apps",
+	"category": "Development Tools",
 	"scripts": {
 		"exec": {
 			"label": "Install X86_86 Only",

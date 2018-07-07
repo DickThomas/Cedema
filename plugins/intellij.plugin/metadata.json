@@ -3,7 +3,7 @@
 	"label": "intelliJ",
 	"description": "The Most Intelligent Java IDE (Requires Java)",
 	"license": "Apache 2 license",
-	"category": "Dev Apps",
+	"category": "Development Tools",
 	"scripts": {
 		"exec": {
 			"label": "Install",
@@ -13,6 +13,6 @@
 			"label": "Remove",
 			"command": "run-as-root -s uninstall.sh"
 		},
-		"status": { "command": "test -d /opt/intellij/idea-IC-181.5281.24/bin/idea.png" }
+		"status": { "command": "test -d /opt/intellij/idea-IC-181.5281.24/bin/idea.sh" }
 	}
 }

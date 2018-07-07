@@ -3,7 +3,7 @@
 	"label": "duplicati",
 	"description": "Store securely encrypted backups on cloud storage services! ",
 	"license": "LGPL",
-	"category": "Dev Apps",
+	"category": "Development Tools",
 	"scripts": {
 		"exec": {
 			"label": "Install",

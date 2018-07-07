@@ -1,6 +1,8 @@
 #!/bin/bash
 
-apt install default-jdk
+dpkg --add-architecture i386
+apt update
+apt install default-jdk  libxtst6:i386
 
 if [[ "$(uname -m)" = "x86_64" ]]; then
 	ARCH="64"

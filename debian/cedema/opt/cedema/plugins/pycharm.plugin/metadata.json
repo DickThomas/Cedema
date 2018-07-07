@@ -1,9 +1,9 @@
-{
+    {
 	"icon": "pycharm",
 	"label": "pycharm",
 	"description": "The Most Intelligent Python IDE (Requires Java)",
 	"license": "Apache 2 license",
-	"category": "Dev Apps",
+	"category": "Development Tools",
 	"scripts": {
 		"exec": {
 			"label": "Install",

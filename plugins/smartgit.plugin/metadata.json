@@ -10,8 +10,8 @@
 		},
 		"undo": {
 			"label": "Remove",
-			"command": "run-as-root -s uninstall.sh"
+			"command": "run-as-root apt remove -y smartgit"
 		},
-		"status": { "command": "test -f /usr/bin/smartgit" }
+		"status": { "command": "dpgk-query -l smartgit" }
 	}
 }

@@ -1,5 +1,5 @@
 #!/bin/bash
-CACHEDIR="/var/cache/adaptigo/VSCode"
+CACHEDIR="/var/cache/cedema/"
 
 cd $CACHEDIR
 

@@ -12,8 +12,8 @@
 		},
 		"undo": {
 			"label": "Remove",
-			"command": "run-as-root dnf -y remove Rambox"
+			"command": "run-as-root apt -y remove rambox"
 		},
-		"status": { "command": "dpgk-query -l Rambox" }
+		"status": { "command": "dpkg-query -l rambox" }
 	}
 }

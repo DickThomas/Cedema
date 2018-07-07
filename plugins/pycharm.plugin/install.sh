@@ -23,7 +23,6 @@ ln -sf /opt/pycharm/pycharm-community-2016.3.2/bin/pycharm.sh /usr/bin/pycharm
 
 xdg-icon-resource install --novendor --size 256 "/opt/pycharm/pycharm-community-2016.3.2/bin/pycharm.png" "pycharm"
 gtk-update-icon-cache -f -t /usr/share/icons/hicolor
-chgrp adaptigo -Rfv /opt/pycharm/
 
 cat <<EOF | tee /usr/share/applications/pycharm.desktop
 [Desktop Entry]

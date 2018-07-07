@@ -20,8 +20,6 @@
 ./plugins/gitkraken.plugin
 ./plugins/insync.plugin
 ./plugins/intellij.plugin
-./plugins/intellijideacommunity.plugin
-./plugins/intellijideaultimate.plugin
 ./plugins/jdk.plugin
 ./plugins/jetbrains-toolbox.plugin
 ./plugins/lutris.plugin
@@ -42,7 +40,6 @@
 ./plugins/syncthing.plugin
 ./plugins/teamviewer.plugin
 ./plugins/telegram.plugin
-./plugins/virtualbox.plugin
 ./plugins/visualStudio.plugin
 ./plugins/vivaldi.plugin
 ./plugins/webstorm.plugin

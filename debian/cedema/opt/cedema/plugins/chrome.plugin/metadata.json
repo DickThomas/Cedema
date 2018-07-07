@@ -11,7 +11,7 @@
 		},
 		"undo": {
 			"label": "Remove",
-			"command": "run-as-root apt -y remove google-chrome-stable"
+			"command": "run-as-root apt -y purge google-chrome-stable"
 		},
 		"status": { "command": "dpkg-query -l google-chrome-stable" }
 	}

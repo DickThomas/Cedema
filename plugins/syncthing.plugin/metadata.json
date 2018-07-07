@@ -11,7 +11,7 @@
 		},
 		"undo": {
 			"label": "Remove",
-			"command": "run-as-root apt -y remove syncthing"
+			"command": "run-as-root apt -y purge syncthing"
 		},
 		"status": { "command": "dpkg-query -l syncthing" }
 	}

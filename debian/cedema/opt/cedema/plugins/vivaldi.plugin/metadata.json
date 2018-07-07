@@ -11,8 +11,8 @@
 		},
 		"undo": {
 			"label": "Remove",
-			"command": "run-as-root aptitude -y purge vivaldi"
+			"command": "run-as-root apt -y purge vivaldi-stable"
 		},
-		"status": { "command": "dpkg-query -l vivaldi" }
+		"status": { "command": "dpkg-query -l vivaldi-stable" }
 	}
 }

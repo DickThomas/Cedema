@@ -3,7 +3,7 @@
 	"label": "Oracle JDK",
 	"description": "Allows to run applications written in the Java programming language. X64 Only.",
 	"license": [ "Sun License", "GPL" ],
-	"category": "Dev Apps",
+	"category": "Development Tools",
 	"scripts": {
 		"exec": {
 			"label": "Install",

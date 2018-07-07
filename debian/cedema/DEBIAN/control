@@ -2,7 +2,7 @@ Package: cedema
 Version: 0.20-8
 Architecture: amd64
 Maintainer: Dick  Thomas <dthomas@speaksthegeek.co.uk>
-Installed-Size: 224
+Installed-Size: 211
 Depends: gksu, git, software-properties-common, curl, wget, gdebi, apt-transport-https, gjs, gnupg
 Section: unknown
 Priority: optional

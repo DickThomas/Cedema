@@ -2,8 +2,8 @@
 	"icon": "opera",
 	"label": "Opera",
 	"description": "Fast and secure web browser",
-	"license": "Proprietary",
-	"category": "Apps",
+	"license": "",
+	"category": "Repositories",
 	"scripts": {
 		"exec": {
 			"label": "Install",

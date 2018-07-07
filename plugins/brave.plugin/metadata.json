@@ -1,7 +1,7 @@
 {
 	"icon": "brave",
 	"label": "Brave Browser",
-	"description": "A privacy focused browser that blocks ads and trackers by default",
+	"description": "A privacy focused browser that blocks ads and trackers by default. May not work with current Kernel",
 	"license": "Mozilla Public License 2.0",
 	"libre": true,
 	"category": "Apps",

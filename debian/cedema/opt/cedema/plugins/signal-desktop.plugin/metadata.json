@@ -12,7 +12,7 @@
 		},
 		"undo": {
 			"label": "Remove",
-			"command": "run-as-root apt remove signal-desktop"
+			"command": "run-as-root apt purge -y signal-desktop"
 		},
 		"status": { "command": "dpkg-query -l signal-desktop" }
 	}
