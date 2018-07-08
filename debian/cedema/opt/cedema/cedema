@@ -1,4 +1,4 @@
 #!/bin/bash
 cd /opt/cedema/
-./popup.js & run-as-root apt update
+./run-as-root apt update
 ./app.js $@
