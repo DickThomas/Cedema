@@ -1,10 +1,10 @@
-cedema (0.20-8) UNRELEASED; urgency=medium
+cedema (0.20-9) UNRELEASED; urgency=medium
 
-  * attempted fix at broken exec again
-  * missing exec still broken
+  * updated all plugins and deleted some too
+  * sync code with Fedy 
   * 
 
- -- Dick Thomas <dthomas@speaksthegeek.co.uk>  Sun, 05 Mar 2017 18:00:39 +0000
+ -- Dick Thomas <dthomas@speaksthegeek.co.uk>  Sun, 08 Jul 2018 11:58:38 +0100
 
 adaptigo (0.20-7) stable; urgency=medium
 
